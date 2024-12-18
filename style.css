@@ -1,0 +1,98 @@
+
+body {
+padding:24px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-family: cursive;
+  background-color: rgb(0, 214, 252);
+}
+p {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+}
+h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+  background-color: rgb(255, 255, 255);
+}
+
+ul,ol {
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#gallery-container {
+  background-color: #eec643;
+  margin: 0 auto;
+  padding:10px;
+  width: 1650px; ;
+}
+
+#my_country {
+  border: 10px cornflowerblue dashed;
+  padding:10px ;
+  border-radius:20px ;
+}
+#my_fav_sport {
+  border: 10px cornflowerblue dashed;
+  padding:10px ;
+  border-radius:20px ;
+}
+
+#my_fav_movie {
+  padding:10px ;
+}
+
+#my_message {
+  border: 10px cornflowerblue dashed;
+  padding:10px ;
+  border-radius:20px ;
+}
+
+
+#my_projects {
+  padding:10px ;
+}
+
+.left {
+  text-align: left;
+}
+
+#my_fav_sport img,
+#my_fav_movie img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px; ;
+   transition:all 0.3s ;
+
+}
+#my_fav_sport img:hover ,
+#my_fav_movie img:hover {
+transform: scale(1.1);
+}
+img {
+  border-radius:  10px;
+}
+
+a {
+  color: brown;
+}
+a:hover {
+  color: blue;
+}
+
+
+#my_gallery img {
+ padding: 10px; ;
+ transition:all 0.3s ;
+}
+
+#my_gallery img:hover {
+  transform: scale(1.1);
+}
